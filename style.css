@@ -1,11 +1,12 @@
 body {
     font-family: Roboto, sans-serif;
+   
  }
 
  /* Section 1 CSS */
 
 .section1 {
-    background: #1f2937;
+    background: #3d587d;
     padding-top: 15px;
     padding-left: 150px;
     padding-right: 150px;
@@ -15,29 +16,47 @@ body {
     margin-right: -10px;
     
 }
-.hero {
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
-       
+    padding-bottom: 50px;      
+}
+
+.headerlogo {
+    font-family: serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    border-radius: 50px;
+    border: 2px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 130px;
+    max-height: 130px;
 }
 
 .heromain {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #f9faf8
+    color: #f9faf8;
+    
 }
 
 .herolink, 
 .herosecond {
     font-size: 18px;
     color: #e5e7eb
-}
-
-.headerlogo {
-    font-size: 24px;
-    color: #f9faf8
 }
 
 ul{
@@ -56,10 +75,10 @@ a{
 }
 
 .container {
-    background: #1f2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 .modal {
@@ -70,12 +89,12 @@ a{
  }
 
 .image {
-    background: rgb(128, 127, 127);
-    color: #f9faf8;
-    height: 200px;
-    width: auto;
-    padding: 20px;
-    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px 6px #0f141c;
+    height: 250px;
+    width: 500px;
+    padding: 2px;
+    margin: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +112,8 @@ button {
 /* Section 2 CSS */
 
 .infoheader {
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 1000;
     color: #1f2937;
     text-align: center;
     margin-top: 30px;
@@ -104,7 +123,7 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     gap: 10px;
     margin-bottom: 100px; 
     padding-right: 200px;
@@ -140,9 +159,9 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin-left: -10px;
     margin-right: -10px;
+    padding-bottom: 35px;
 
 }
 
@@ -155,6 +174,7 @@ button {
     padding-bottom: 10px;
     padding-left: 280px;
     padding-right: 280px;
+    
 }
 
 .author {
@@ -163,7 +183,8 @@ button {
     padding-bottom: 50px;
     padding-left: 280px;
     padding-right: 280px;
-    text-align: left;
+    text-align: end;
+    
 }
 
 /* Section 4 */
@@ -217,11 +238,12 @@ button {
 .footer {
     background: #1f2937;
     font-size: small;
+    font-style: italic;
     text-align: center;
     color:  #f9faf8;
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: -10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
